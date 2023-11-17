@@ -2,7 +2,7 @@
 
 The follownig is a microservice implementation for my partner's 361 project. It is an API that is run locally. The code written in getJobs.js calls 2 github API sources that contain company names that are hiring for new grad roles and intern roles. When the API is called it returns a JS object of the company name and its logo. 
 
-In order to request data, a user should install node-fetch to gather the entire list of companys and logos. The code below is one example of how to request the data in JS:
+In order to request data, a user should install node-fetch to gather the entire list of companys and logos. Also, prior to running the index.js file, please make sure Node and Express are installed. The code below is one example of how to request the data in JS:
 ```
 import fetch from 'node-fetch';
 let responseData;
