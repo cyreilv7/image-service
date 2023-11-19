@@ -30,6 +30,7 @@ fetch('http://localhost:5000')
 
   The following UML Diagram displays the request and receiving data works with the API:
 
-![UMLdiagram](https://github.com/kyak15/361-Project/assets/112513039/839cb101-5311-4198-ad2c-a158c490d5ae)
+![UMLdiagram](https://github.com/kyak15/361-Project/assets/112513039/64df710a-c7e9-436d-afba-dff989f65554)
+
 
 
