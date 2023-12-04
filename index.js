@@ -6,9 +6,16 @@ const app = express();
 
 const { getResult } = require("./getJobs.js");
 
-const PORT = 5000;
+const PORT = 8000;
 
-
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*'); // Adjust in production
+    res.header(
+      'Access-Control-Allow-Headers',
+      'Origin, X-Requested-With, Content-Type, Accept'
+    );
+    next();
+  });  
 
 app.get('/', async(req, res) =>{
     try{

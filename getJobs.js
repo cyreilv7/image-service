@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const newGradAPI = 'https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json';
 const internAPI = 'https://raw.githubusercontent.com/SimplifyJobs/Summer2024-Internships/dev/.github/scripts/listings.json';
 const presHuntAPI = 'https://prestigehunt.com/.netlify/functions/api/companies';
@@ -25,8 +27,6 @@ function createData() {
     });
     console.log(jsonResponse)
     return jsonResponse;
-    
-    
 }
 
 
